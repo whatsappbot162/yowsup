@@ -1,94 +1,41 @@
-# yowsup [![Build Status](https://travis-ci.org/tgalal/yowsup.svg?branch=master)](https://travis-ci.org/tgalal/yowsup)
+# ⚡ Hipster Savvy - WhatsApp Bot Powered by Yowsup
 
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Z9KKEUVYEY6BN" target="_blank"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" /></a>
+![Hipster Savvy Banner](https://media.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif)
 
-**For private consultancy feel free to directly schedule it over [codementor](https://www.codementor.io/@tgalal).**
+> A stealthy, smart, and powerful WhatsApp bot built with [Yowsup](https://github.com/tgalal/yowsup) – now reimagined for your digital universe. Communicate. Automate. Dominate.
 
 ---
 
-yowsup is a python library that enables building applications that can communicate with WhatsApp users.
-The project started as the protocol engine behind [Wazapp for Meego](https://wiki.maemo.org/Wazapp) and
-[OpenWA for BB10](https://www.lowyat.net/2013/5896/try-this-openwhatsapp-for-blackberry-10/). Now as a standalone
-library it can be used to power any custom WhatsApp client.
+## **About Hipster Savvy**
+Hipster Savvy is an advanced AI-driven WhatsApp bot tailored for both group and personal chats. Packed with custom features like:
+- **Auto-replies**
+- **Downloaders**
+- **Group monitoring**
+- **Anti-spam/bot protection**
+- **AI integrations**
+- **Command linking**
+- **Virus detection & removal**
+- **Smart UI/UX for mobile**
 
-```
-updated: 2021-12-14
-yowsup version: 3.3.0
-yowsup-cli version: 3.2.1
-requires:
-- python>=2.7,<=3.7
-- consonance==0.1.5
-- python-axolotl==0.2.2
-- protobuf>=3.6.0
-- six==1.10
-uses:
- - argparse [yowsup-cli]
- - readline [yowsup-cli]
- - pillow [send images]
- - tqdm [mediasink demo]
- - requests [mediasink demo]
-```
+---
 
-## See also
+## **Deploy Instantly**
+> Choose your favorite platform and go live in seconds:
 
-During maintenance of yowsup, several projects have been spawned in order to support different features that get
-introduced by WhatsApp. Some of those features are not necessarily exclusive to WhatsApp and therefore it only made
-sense to maintain some parts as standalone projects:
+| Platform | Deploy Link |
+|---------|-------------|
+| [Replit](https://replit.com) | [Deploy on Replit](https://replit.com/github/your-username/hipster-savvy) |
+| [Railway](https://railway.app) | [Deploy on Railway](https://railway.app/new/project?template=your-repo) |
+| [Koyeb](https://koyeb.com) | [Deploy on Koyeb](https://app.koyeb.com) |
+| [GitHub](https://github.com) | [Visit Repository](https://github.com/HipsterSavvy1/hipster-savvy) |
 
-- [python-axolotl](https://github.com/tgalal/python-axolotl): Python port of
-[libsignal-protocol-java](https://github.com/signalapp/libsignal-protocol-java), providing E2E encryption
-- [consonance](https://github.com/tgalal/consonance/): WhatsApp's handshake implementation using Noise Protocol
-- [dissononce](https://github.com/tgalal/dissononce):  A python implementation for
-[Noise Protocol Framework](https://noiseprotocol.org/)
+*You can also fork this project and connect it to [Render](https://render.com), [Glitch](https://glitch.com), or [Fly.io](https://fly.io) for alternate deployment.*
 
+---
 
-## Quickstart
- * **[Installation](#installation)**
- * **[yowsup's architecture](https://github.com/tgalal/yowsup/wiki/Architecture)**
- * **[Create a sample app](https://github.com/tgalal/yowsup/wiki/Sample-Application)**
- * **[yowsup-cli](https://github.com/tgalal/yowsup/wiki/yowsup-cli)**
+## **Installation (Manual)**
 
-## Installation
-
-Install using setup.py to pull all Python dependencies, or pip:
-
-```
-pip install yowsup
-```
-
-### Linux
-
-You need to have installed Python headers (probably from python-dev package) and ncurses-dev, then run
-```
-python setup.py install
-```
-
-### FreeBSD (*BSD)
-You need to have installed: py27-pip-7.1.2(+), py27-sqlite3-2.7.11_7(+), then run
-```
-pip install yowsup
-```
-
-### Mac OS
-```
-python setup.py install
-```
-Administrators privileges might be required, if so then run with 'sudo'
-
-### Windows
-
- - Install [mingw](http://www.mingw.org/) compiler
- - Add mingw to your PATH
- - In PYTHONPATH\Lib\distutils create a file called distutils.cfg and add these lines:
-
-```
-[build]
-compiler=mingw32
-```
- - Install gcc: ```mingw-get.exe install gcc```
- - Install [zlib](http://www.zlib.net/)
- - ```python setup.py install```
-
-# License:
-
-As of January 1, 2015 yowsup is licensed under the GPLv3+: http://www.gnu.org/licenses/gpl-3.0.html.
+### **1. Clone Repository**
+```bash
+git clone https://github.com/HipsterSavvy1/hipster-savvy.git
+cd hipster-savvy
